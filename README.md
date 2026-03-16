@@ -1,16 +1,24 @@
-# React + Vite
+# AppNest — Productive App Store
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive multi-page app discovery platform built with React and Tailwind CSS.
 
-Currently, two official plugins are available:
+## Description
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+AppNest is a web application that showcases a curated catalog of productivity apps. Users can browse apps, view detailed information with ratings charts, install/uninstall apps (persisted in localStorage), and search with live filtering.
 
-## React Compiler
+## Pages
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Home** — Hero banner, stats, and trending apps grid
+- **Apps** — All apps with live search
+- **App Details** — Full info, Recharts rating bar chart, install button
+- **Installation** — Installed apps list with sort and uninstall
+- **404 / App Not Found** — Custom error pages
 
-## Expanding the ESLint configuration
+## Technologies
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- [React](https://react.dev/) + [Vite](https://vitejs.dev/)
+- [React Router v6](https://reactrouter.com/)
+- [Tailwind CSS v3](https://tailwindcss.com/)
+- [Recharts](https://recharts.org/)
+- [react-hot-toast](https://react-hot-toast.com/)
+- LocalStorage for install persistence

@@ -16,7 +16,7 @@ export default function Home() {
                     </h1>
 
                     <p className="text-gray-500 max-w-xl mx-auto mb-8 leading-relaxed">
-                        At HERO.IO , we craft innovative apps designed to make everyday life
+                        At AppNest , we craft innovative apps designed to make everyday life
                         simpler, smarter, and more exciting. Our goal is to turn your ideas
                         into digital experiences that truly make an impact.
                     </p>
@@ -29,15 +29,12 @@ export default function Home() {
                             rel="noopener noreferrer"
                             className="flex items-center gap-2 border border-gray-300 bg-white rounded-lg px-4 py-2 hover:bg-gray-50 transition shadow-sm"
                         >
-                            <svg className="w-5 h-5" viewBox="0 0 24 24">
-                                <path fill="#4CAF50" d="M1.22 0L12 10.78 22.78 0H1.22z" />
-                                <path fill="#F44336" d="M0 22.78l10.78-10.78L0 1.22v21.56z" />
-                                <path fill="#FFEB3B" d="M24 22.78V1.22L13.22 12 24 22.78z" />
-                                <path fill="#2196F3" d="M12 13.22L1.22 24h21.56L12 13.22z" />
-                            </svg>
-                            <span className="text-sm font-medium text-gray-700">
-                                Google Play
-                            </span>
+                            <img
+                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTz60iSoG-QGXAaoudlr7OxaZgf54Bs9MqEpg&s"
+                                alt="Google Play"
+                                className="w-5 h-5"
+                            />
+                            <span className="text-sm font-medium text-gray-700">Google Play</span>
                         </a>
 
                         <a
